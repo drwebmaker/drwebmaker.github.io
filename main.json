@@ -1,0 +1,33 @@
+{"keys": [
+    {
+      "key": "ABOUT_US",
+      "en": "About us",
+      "nl": "Over ons"
+    },
+    {
+      "key": "FEATURES",
+      "en": "Features",
+      "nl": "Functionaliteiten"
+    },
+    {
+      "key": "PRICING",
+      "en": "Pricings",
+      "nl": "Prijzen"
+    },
+    {
+      "key": "FACULTY",
+      "en": "Faculty",
+      "nl": "Experts"
+    },
+    {
+      "key": "LIBRARY",
+      "en": "Library",
+      "nl": "Trainingsaanbod"
+    },
+    {
+      "key": "HOME",
+      "en": "Home",
+      "nl": "Home"
+    }
+  ]
+}
