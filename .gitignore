@@ -1,12 +1,2 @@
 .idea
-bower_components/
-node_modules/
-build/coverage/
-build/target/
-public/javascript/libs/
-public/css/main.css
-public/index.html
-public/javascript/app/templates.js
-public/javascript/app/mocks.js
-svg-icons-out/
 .sass-cache/
