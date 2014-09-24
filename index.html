@@ -1,12 +1,14 @@
 <!doctype html>
-<html lang="en">
+<html lang="en" ng-app="translateApp">
 <head>
   <meta charset="UTF-8">
   <title>JSON tible</title>
   <link rel="stylesheet" href="css/main.css">
-  <script src="js/main.js"></script>
+  <!--<script src="js/main.js"></script>-->
+  <script src='https://ajax.googleapis.com/ajax/libs/angularjs/1.2.18/angular.min.js'></script>
+  <script src="js/controllers.js"></script>
 </head>
-<body>
+<body ng-controller="translateCtrl">
   <h1>Table JSON</h1>
   <div id="table">
     <table id="table_key">
@@ -14,6 +16,11 @@
         <th>Key</th>
         <th>EN</th>
         <th>NL</th>
+      </tr>
+      <tr ng-repeat="key in keys">
+        <td>{{key.key}}</td>
+        <td>{{key.en}}</td>
+        <td>{{key.nl}}</td>
       </tr>
     </table>
   </div>
